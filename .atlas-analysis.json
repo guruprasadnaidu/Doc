@@ -1,13 +1,11 @@
 {
-  "$schema": "https://mintlify.com/docs.json",
+  "projectType": "saas",
+  "projectName": "Harvest International School",
+  "projectDescription": "Harvest International School is a Cambridge-affiliated international school in Klang, Malaysia, offering Cambridge Primary and Secondary (IGCSE) programmes for students aged 7–17, with a focus on holistic, inquiry-based education.",
   "theme": "almond",
-  "name": "Harvest International School",
-  "colors": {
-    "primary": "#2E7D32",
-    "light": "#66BB6A",
-    "dark": "#1B5E20"
-  },
-  "favicon": "/favicon.svg",
+  "primaryColor": "#2E7D32",
+  "lightColor": "#66BB6A",
+  "darkColor": "#1B5E20",
   "navigation": {
     "tabs": [
       {
@@ -61,20 +59,22 @@
       }
     ]
   },
-  "navbar": {
-    "links": [
-      {
-        "label": "Contact Us",
-        "href": "mailto:enquiry@harvestintsch.edu.my"
-      }
-    ],
-    "primary": {
-      "type": "button",
-      "label": "Apply Now",
-      "href": "https://www.harvestintsch.edu.my/admissions/"
-    }
-  },
-  "footer": {
-    "socials": {}
-  }
+  "keyFeatures": [
+    "Cambridge International IGCSE curriculum (Primary and Secondary)",
+    "Small class sizes for personalised attention",
+    "Holistic and inquiry-based education philosophy",
+    "Wide range of co-curricular clubs and activities",
+    "Licensed by the Ministry of Education Malaysia",
+    "Annual events including Sports Day and Harvest's Got Talent",
+    "Strong teacher-student relationships in a nurturing environment",
+    "International school community in Klang, Malaysia"
+  ],
+  "publicApiSurface": [
+    "Admissions enquiry: enquiry@harvestintsch.edu.my",
+    "Phone: +60 3 3343 3633 / +60 11 5895 4310",
+    "Location: Lot 6934, Berkeley Complex, Jalan Lang, Taman Berkeley, Klang, Malaysia",
+    "Cambridge Primary Programme (Ages 7–12)",
+    "Cambridge Secondary IGCSE Programme (Ages 13–17)",
+    "Co-curricular clubs: Interact Club, St John Ambulance, Sports & Games, Editorial, Speech & Drama, Chess Club, Christian Fellowship"
+  ]
 }
